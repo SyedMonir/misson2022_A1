@@ -5,24 +5,45 @@
 
 }
 
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
 .tealText {
     color: teal;
-
 }
+
 p {
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
+    font-weight: 500;
+}
+
+
+.btnTeal {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.heading {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 40px 0;
 }
 
 header {
     display: flex;
-    padding: 0 90px;
-
 }
 
 .halfWidth {
-    width: 40%;
-    margin-right: 10%;
+    width: 45%;
+    margin-right: 5%;
 }
 
 .heroSection {
@@ -41,18 +62,9 @@ header {
     font-weight: 100;
 }
 
-.btnTeal {
-    background-color: teal;
-    color: white;
-    padding: 10px 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    border: none;
-
-}
 
 .personImg {
-    margin: 1px auto;
+    margin-left: auto;
 }
 
 .personImg img {
@@ -63,20 +75,29 @@ header {
 
 
 
+/* MISSION  */
 
-/* #mission {
-    
-} */
+
+#mission {
+    margin-bottom: 30px;
+}
+
+#mission h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
 .cards {
     display: flex;
+    margin: 0 auto;
 }
 
 .card1, .card2, .card3 {
-    width: 25%;
-    height: 375px;
-    margin:0 4%;
+    width: 30%;
+    height: 350px;
     padding: 15px;
     border-radius: 30px;
+
 }
 
 .cards img {
@@ -86,16 +107,112 @@ header {
 
 .cards h2 {
     margin: 10px 0;
+    font-weight: 600;
 }
 
 .card1 {
-    background-color: wheat;
+    background-color: #4f9da63f;
+    /* margin-left: 3.3%; */
+    margin-right: 4%;
 }
 
 .card2 {
-    background-color:rgba(210, 180, 140, 0.671);
+    background-color: #fcecc3;
+    margin-right: 4%;
 }
 
 .card3 {
-    background-color:rgba(192, 192, 192, 0.774)
+    background-color: #ff59597c;
+}
+
+
+
+
+/* DEVELOP */
+
+#developBanner, #globalBanner {
+    background: url(./img/shape-1.png) no-repeat left;
+    background-size: 227px;
+}
+
+#develop, #global {
+    display: flex;
+    /* margin-top: 60px; */
+    margin: 80px auto 0;
+
+}
+
+.developImg, .globalImg {
+    width: 35%;
+    /* margin-right: 2%; */
+}
+
+.developImg img, .globalImg img {
+    width: 400px;
+    height: 400px;
+}
+
+.developText, .globalText {
+    width: 60%;
+}
+
+
+
+
+
+/* GLOBAL */
+
+#globalBanner {
+    background-position: right;
+}
+
+.globalText {
+    margin-right: 2%;
+}
+
+.globalText p {
+    width: 700px;
+}
+
+.globalImg {
+    margin-left: 10%;
+}
+
+
+
+/* CONTACT */
+
+#contact {
+    width: 700px;
+    text-align: center;
+    margin: 60px auto;
+    /* padding: 50px 0;  */
+}
+
+#contact p {
+    padding: 20px 0;
+}
+
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+/* FOOTER  */
+
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    color: white;
+    padding: 5px 0 30px;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
 }
